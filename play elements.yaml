@@ -2,5 +2,12 @@
 - hosts: all
   remote_user: root
   tasks:
+  - name: test connections
+    ping: 
+  - name: install httpd
+    yum:
+      - name: httpd
+        state: lastest
+        
   
 
