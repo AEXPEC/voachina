@@ -8,6 +8,4 @@
     yum:
       - name: httpd
         state: lastest
-        
-  
-
+ 
