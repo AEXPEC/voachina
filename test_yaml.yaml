@@ -1,0 +1,16 @@
+#dict-list
+#key-value形式
+test: 1
+test2: 2
+
+#array 模式，web是一个数组，里面有三个值
+web:
+  - google
+  - yahoo
+  - amazon
+
+#dict-dict
+shopping:
+  food: rice
+  fruit: apple
+  liquid: water
