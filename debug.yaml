@@ -1,0 +1,7 @@
+---
+- name: hello world
+  hosts: localhost
+  tasks:
+    - name: message
+      debug:
+        msg: "jingyi"
